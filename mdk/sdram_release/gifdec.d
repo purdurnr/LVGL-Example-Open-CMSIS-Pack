@@ -1,0 +1,19 @@
+sdram_release/gifdec.o: \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\gifdec.c \
+  RTE\LVGL\lv_conf_cmsis.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  RTE\_elcdif_rgb_sdram_release\RTE_Components.h \
+  RTE\_elcdif_rgb_sdram_release\Pre_Include_Global.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\gifdec.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_fs.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\..\lv_conf_internal.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\..\lv_conf_kconfig.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_log.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_types.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_mem.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_color.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_assert.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\libs\gif\..\..\misc\lv_math.h
