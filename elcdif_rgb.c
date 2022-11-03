@@ -14,9 +14,9 @@
 
 /*LVGL drivers*/
 #include "lv_port_disp_template.h"
-#include "touch.h"
+//#include "touch.h"
 #include "tick.h"
-#include "log.h"
+//#include "log.h"
 
 /*********************
  *      DEFINES
@@ -59,7 +59,7 @@ int main(void)
 
     BOARD_ConfigMPU();
     BOARD_InitPins();
-    BOARD_InitI2C1Pins();
+    //BOARD_InitI2C1Pins();
     BOARD_InitSemcPins();
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
@@ -68,16 +68,25 @@ int main(void)
 
     lvgl_tick_init();
     lvgl_disp_init();
-    lvgl_touch_init();
-    lvgl_log_init();
+//    lvgl_touch_init();
+//    lvgl_log_init();
 
-    lv_demo_widgets();
+    //lv_demo_widgets();
+
+
 
     for (;;)
     {
     	lvgl_wait_to_call_timer_handler();
 
-        lv_timer_handler();
+			lv_obj_t * label = lv_label_create(lv_scr_act());
+			lv_label_set_text(label, "Hello world");
+			lv_obj_center(label);
+			
+      lv_timer_handler();
+		
+
     }
+
 }
 

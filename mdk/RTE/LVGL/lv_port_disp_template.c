@@ -160,7 +160,7 @@ void lvgl_disp_init(void)
     lv_disp_drv_register(&disp_drv);
 }
 
-/*
+
 void LCDIF_IRQHandler(void)
 {
 #if defined(SDK_OS_FREE_RTOS)
@@ -186,7 +186,7 @@ void LCDIF_IRQHandler(void)
     }
     SDK_ISR_EXIT_BARRIER;
 }
-*/
+
 
 /**********************
  *   STATIC FUNCTIONS

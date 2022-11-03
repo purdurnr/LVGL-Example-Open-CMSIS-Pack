@@ -16,6 +16,9 @@
  */
 #define CMSIS_device_header "fsl_device_registers.h"
 
+/* LVGL.LVGL::LVGL:lvgl:Demo:Widgets:9.0.0-dev */
+/*! \brief enable demo:widgets support */
+#define LV_USE_DEMO_WIDGETS         1
 /* LVGL.LVGL::LVGL:lvgl:Essential:9.0.0-dev */
 /*! \brief Enable LVGL */
 #define RTE_GRAPHICS_LVGL

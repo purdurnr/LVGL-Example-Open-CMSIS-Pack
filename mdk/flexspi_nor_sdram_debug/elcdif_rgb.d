@@ -255,4 +255,4 @@ flexspi_nor_sdram_debug/elcdif_rgb.o: ..\elcdif_rgb.c \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\themes\basic\..\..\core\lv_obj.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\themes\basic\..\..\core\lv_theme.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\lv_api_map.h \
-  RTE\LVGL\lv_port_disp_template.h ..\touch.h ..\tick.h ..\log.h
+  RTE\LVGL\lv_port_disp_template.h ..\tick.h

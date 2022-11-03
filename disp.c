@@ -14,7 +14,7 @@
 #endif
 
 #include "board.h"
-#include "fsl_video_common.h"
+//#include "fsl_video_common.h"
 #include "fsl_elcdif.h"
 #include "fsl_lpi2c.h"
 #include "fsl_gpio.h"

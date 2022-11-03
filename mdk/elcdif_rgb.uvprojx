@@ -405,16 +405,6 @@
               <FilePath>../board.h</FilePath>
             </File>
             <File>
-              <FileName>disp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\disp.h</FilePath>
-            </File>
-            <File>
-              <FileName>touch.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\touch.h</FilePath>
-            </File>
-            <File>
               <FileName>tick.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\tick.h</FilePath>
@@ -455,11 +445,6 @@
               <FilePath>../dcd.h</FilePath>
             </File>
             <File>
-              <FileName>disp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\disp.c</FilePath>
-            </File>
-            <File>
               <FileName>log.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\log.c</FilePath>
@@ -468,11 +453,6 @@
               <FileName>tick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\tick.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\touch.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1148,16 +1128,6 @@
               <FilePath>../board.h</FilePath>
             </File>
             <File>
-              <FileName>disp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\disp.h</FilePath>
-            </File>
-            <File>
-              <FileName>touch.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\touch.h</FilePath>
-            </File>
-            <File>
               <FileName>tick.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\tick.h</FilePath>
@@ -1198,11 +1168,6 @@
               <FilePath>../dcd.h</FilePath>
             </File>
             <File>
-              <FileName>disp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\disp.c</FilePath>
-            </File>
-            <File>
               <FileName>log.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\log.c</FilePath>
@@ -1211,11 +1176,6 @@
               <FileName>tick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\tick.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\touch.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1891,16 +1851,6 @@
               <FilePath>../board.h</FilePath>
             </File>
             <File>
-              <FileName>disp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\disp.h</FilePath>
-            </File>
-            <File>
-              <FileName>touch.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\touch.h</FilePath>
-            </File>
-            <File>
               <FileName>tick.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\tick.h</FilePath>
@@ -1941,11 +1891,6 @@
               <FilePath>../dcd.h</FilePath>
             </File>
             <File>
-              <FileName>disp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\disp.c</FilePath>
-            </File>
-            <File>
               <FileName>log.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\log.c</FilePath>
@@ -1954,11 +1899,6 @@
               <FileName>tick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\tick.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\touch.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2634,16 +2574,6 @@
               <FilePath>../board.h</FilePath>
             </File>
             <File>
-              <FileName>disp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\disp.h</FilePath>
-            </File>
-            <File>
-              <FileName>touch.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\touch.h</FilePath>
-            </File>
-            <File>
               <FileName>tick.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\tick.h</FilePath>
@@ -2684,11 +2614,6 @@
               <FilePath>../dcd.h</FilePath>
             </File>
             <File>
-              <FileName>disp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\disp.c</FilePath>
-            </File>
-            <File>
               <FileName>log.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\log.c</FilePath>
@@ -2697,11 +2622,6 @@
               <FileName>tick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\tick.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\touch.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2985,6 +2905,15 @@
     <components>
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="5.6.0" condition="ARMv6_7_8-M Device">
         <package name="CMSIS" schemaVersion="1.7.7" url="http://www.keil.com/pack/" vendor="ARM" version="5.9.0"/>
+        <targetInfos>
+          <targetInfo name="elcdif_rgb flexspi_nor_sdram_debug"/>
+          <targetInfo name="elcdif_rgb flexspi_nor_sdram_release"/>
+          <targetInfo name="elcdif_rgb sdram_debug"/>
+          <targetInfo name="elcdif_rgb sdram_release"/>
+        </targetInfos>
+      </component>
+      <component Cbundle="LVGL" Cclass="LVGL" Cgroup="lvgl" Csub="Demo:Widgets" Cvendor="LVGL" Cversion="9.0.0-dev" condition="LVGL-Essential">
+        <package name="lvgl" schemaVersion="1.4" url="https://raw.githubusercontent.com/lvgl/lvgl/master/env_support/cmsis-pack/" vendor="LVGL" version="1.0.9"/>
         <targetInfos>
           <targetInfo name="elcdif_rgb flexspi_nor_sdram_debug"/>
           <targetInfo name="elcdif_rgb flexspi_nor_sdram_release"/>

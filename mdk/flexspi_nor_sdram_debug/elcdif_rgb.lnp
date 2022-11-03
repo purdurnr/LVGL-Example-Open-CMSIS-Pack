@@ -4,6 +4,8 @@
 "flexspi_nor_sdram_debug\board.o"
 "flexspi_nor_sdram_debug\clock_config.o"
 "flexspi_nor_sdram_debug\dcd.o"
+"flexspi_nor_sdram_debug\log.o"
+"flexspi_nor_sdram_debug\tick.o"
 "flexspi_nor_sdram_debug\fsl_debug_console.o"
 "flexspi_nor_sdram_debug\fsl_assert.o"
 "flexspi_nor_sdram_debug\fsl_gpio.o"
@@ -183,6 +185,10 @@
 "flexspi_nor_sdram_debug\lv_port_disp_template.o"
 "flexspi_nor_sdram_debug\lv_port_fs_template.o"
 "flexspi_nor_sdram_debug\lv_port_indev_template.o"
+"flexspi_nor_sdram_debug\img_clothes.o"
+"flexspi_nor_sdram_debug\img_demo_widgets_avatar.o"
+"flexspi_nor_sdram_debug\img_lvgl_logo.o"
+"flexspi_nor_sdram_debug\lv_demo_widgets.o"
 --library_type=microlib --diag_suppress 6314 --strict --scatter "MIMXRT1062xxxxx_flexspi_nor_sdram.scf"
 --remove --entry=Reset_Handler --predefine="-DXIP_BOOT_HEADER_ENABLE=1" --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -1,10 +1,8 @@
-flexspi_nor_sdram_debug/img_demo_widgets_avatar.o: \
-  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\demos\widgets\assets\img_demo_widgets_avatar.c \
-  RTE\LVGL\lv_conf_cmsis.h \
+flexspi_nor_sdram_debug/disp.o: ..\disp.c RTE\LVGL\lv_conf_cmsis.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   RTE\_elcdif_rgb_flexspi_nor_sdram_debug\RTE_Components.h \
   RTE\_elcdif_rgb_flexspi_nor_sdram_debug\Pre_Include_Global.h \
-  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\demos\widgets\assets\..\..\..\lvgl.h \
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\lvgl.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\misc\lv_log.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\misc\..\lv_conf_internal.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\misc\..\lv_conf_kconfig.h \
@@ -237,4 +235,25 @@ flexspi_nor_sdram_debug/img_demo_widgets_avatar.o: \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\themes\basic\lv_theme_basic.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\themes\basic\..\..\core\lv_obj.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\themes\basic\..\..\core\lv_theme.h \
-  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\lv_api_map.h
+  C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\src\lv_api_map.h \
+  ..\disp.h ..\board.h ..\clock_config.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_common.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\fsl_device_registers.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\MIMXRT1062.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\core_cm7.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\cmsis_version.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\cmsis_compiler.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\cmsis_armclang.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\mpu_armv7.h \
+  ..\..\..\..\..\..\CMSIS\Core\Include\cachel1_armv7.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\system_MIMXRT1062.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\MIMXRT1062_features.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_common_arm.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_clock.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_gpio.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_elcdif.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_lpi2c.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\drivers\fsl_cache.h \
+  ..\..\..\..\..\..\devices\MIMXRT1062\utilities\debug_console_lite\fsl_debug_console.h

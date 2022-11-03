@@ -2,6 +2,7 @@ flexspi_nor_sdram_debug/lv_demo_widgets.o: \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\demos\widgets\lv_demo_widgets.c \
   RTE\LVGL\lv_conf_cmsis.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  RTE\_elcdif_rgb_flexspi_nor_sdram_debug\RTE_Components.h \
   RTE\_elcdif_rgb_flexspi_nor_sdram_debug\Pre_Include_Global.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\demos\widgets\lv_demo_widgets.h \
   C:\Users\nxf81111\AppData\Local\Arm\Packs\LVGL\lvgl\1.0.9\demos\widgets\..\lv_demos.h \
